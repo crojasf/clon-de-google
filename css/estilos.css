@@ -101,9 +101,8 @@ main .main-input {
 	height: 50px;
 }
 
-
 main .main-input-container {
-	border: 1px solid #dadada;
+	border: 1px solid #dfe1e5;
 	border-radius: 25px;
 	height: 100%;
 	display: flex;
@@ -121,29 +120,36 @@ main .main-input-container:hover{
 
 .main-input .search-icon {
 	display: block;
-	width: 15px;
+	/* width: 15px; */
+	padding-left: 15px;
 	height: 15px;
 	background: transparent url(../imagenes/google-sprite-crojasf.png);
 	background-position: -252px -38px;
 	opacity: 0.33;
+	box-sizing: border-box;
+	font-size: 16px;
 }
 
 .main-input input {
 	border: 0;
 	width: 100%;
-	margin: 0 15px;
+	padding: 0 15px;
 	height: 60%;
 	font-size: 16px;
+	box-sizing: border-box;
 }
 
 
 .main-input .micro-icon {
 	display: block;
-	width: 20px;
+	/* width: 20px; */
+	padding-left: 20px;
 	height: 20px;
 	background: transparent url(../imagenes/google-sprite-crojasf.png);
 	background-position: -168px -43px;
 	opacity: 1;
+	box-sizing: border-box;
+	font-size: 16px;
 }
 
 
