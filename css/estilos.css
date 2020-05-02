@@ -79,6 +79,7 @@ nav .nav-foto img {
 
 main {
 	text-align: center;
+	height: 100%;
 }
 main section {
 	width: 484px;
@@ -205,3 +206,50 @@ main .main-links a:hover {
 
 
 /* -----------------  MAIN  */
+
+
+/* -----------------  FOOTER  */
+
+footer {
+	color: rgba(0, 0, 0, 0.54);
+	background: #f2f2f2;
+	position: absolute;
+	bottom: 0;
+	font-size: 15px;
+	width: 100%;
+}
+
+footer .footer-pais,
+footer .footer-menu {
+	border-top: 1px solid #e4e4e4;
+
+}
+
+footer .footer-pais p,
+footer .footer-menu ul li {
+	padding-left: 30px;
+}
+
+
+
+.footer-menu {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-menu ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin-right: 30px;
+}
+
+.footer-menu a {
+	color: #5f6368;
+}
+.footer-menu a:hover {text-decoration: underline;
+}
+
+
+
+/* -----------------  FOOTER  */
