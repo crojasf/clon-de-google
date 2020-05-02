@@ -83,7 +83,11 @@ main {
 main section {
 	width: 484px;
 	margin: 0 auto;
+	margin-top: 30px;
 }
+
+
+
 main .main-logo {
 	margin-top: 110px;
 }
@@ -97,7 +101,6 @@ main .main-logo {
 
 
 main .main-input {
-	margin-top: 30px;
 	height: 50px;
 }
 
@@ -114,8 +117,6 @@ main .main-input-container {
 main .main-input-container:hover{
 	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.28);
 }
-
-
 
 
 .main-input .search-icon {
@@ -155,7 +156,6 @@ main .main-input-container:hover{
 
 
 main .main-buttons {
-	margin-top: 30px;
 	display: flex;
 	justify-content: center;
 }
@@ -179,5 +179,29 @@ main .main-buttons {
 	opacity: 1;
 	border: 1px solid #c6c6c6;
 }
+
+
+main .main-links {
+}
+
+.main-links .main-links-random {
+	margin-bottom: 40px;
+}
+
+main .main-links a {
+	color: #1a0dab;
+}
+
+main .main-links a:hover {
+	color: #1a0dab;
+}
+
+.main-links a:hover {
+	text-decoration: underline;
+}
+.main-links-languages span {
+	padding: 0 3px;
+}
+
 
 /* -----------------  MAIN  */
