@@ -57,7 +57,7 @@ nav .nav-icono {
 	display: block;
 	width: 16px;
 	height: 16px;
-	background: transparent url(../imagenes/google-sprite.png);
+	background: transparent url(../imagenes/google-sprite-crojasf.png);
 	background-position: -139px -45px;
 	opacity: 0.55;
 }
@@ -92,6 +92,59 @@ main .main-logo {
 }
 
 
+
+
+
+
+main .main-input {
+	margin-top: 30px;
+	height: 50px;
+}
+
+
+main .main-input-container {
+	border: 1px solid #dadada;
+	border-radius: 25px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+
+main .main-input-container:hover{
+	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.28);
+}
+
+
+
+
+.main-input .search-icon {
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: transparent url(../imagenes/google-sprite-crojasf.png);
+	background-position: -252px -38px;
+	opacity: 0.33;
+}
+
+.main-input input {
+	border: 0;
+	width: 100%;
+	margin: 0 15px;
+	height: 60%;
+	font-size: 16px;
+}
+
+
+.main-input .micro-icon {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: transparent url(../imagenes/google-sprite-crojasf.png);
+	background-position: -168px -43px;
+	opacity: 1;
+}
 
 
 /* -----------------  MAIN  */
