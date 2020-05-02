@@ -153,4 +153,31 @@ main .main-input-container:hover{
 }
 
 
+
+main .main-buttons {
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.main-buttons div {
+	padding: 0 5px;
+}
+
+.main-buttons button {
+	border: 0;
+	background-color: #efefef;
+	border: 1px solid #efefef;
+	border-radius: 5px;
+	padding: 10px 20px;
+	opacity: 0.75;
+	font-size: 14px;
+}
+
+
+.main-buttons button:hover{
+	opacity: 1;
+	border: 1px solid #c6c6c6;
+}
+
 /* -----------------  MAIN  */
