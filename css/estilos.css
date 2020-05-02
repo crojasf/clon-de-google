@@ -14,6 +14,10 @@ a{
 	text-decoration: none;
 }
 	
+
+/* -----------------  COMUNES  */
+
+
 /* -----------------  HEADER  */
 
 
@@ -65,3 +69,29 @@ nav .nav-icono:hover {
 nav .nav-foto img {
 	border-radius: 50%;
 }
+
+
+
+/* -----------------  HEADER  */
+
+
+/* -----------------  MAIN  */
+
+main {
+	text-align: center;
+}
+main section {
+	width: 484px;
+	margin: 0 auto;
+}
+main .main-logo {
+	margin-top: 110px;
+}
+.main-logo img {
+	height: 92px;
+}
+
+
+
+
+/* -----------------  MAIN  */
